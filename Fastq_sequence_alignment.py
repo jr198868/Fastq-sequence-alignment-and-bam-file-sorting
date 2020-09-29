@@ -9,8 +9,8 @@ os.chdir('/home/rjing/Desktop/sambamdata')
 
 #1. create index for the reference sequence
 os.chdir('/home/rjing/Desktop/bwa-master')
-val = os.system('ls -al')
-print(val)
+#val = os.system('ls -al')
+#print(val)
 os.system('bwa index "/home/rjing/Desktop/sambamdata/TCXpress_pLVX-EF1a-4110A_miHA1_Correct.fa"')
 
 #2. Using mem algorithm to process the alignment
