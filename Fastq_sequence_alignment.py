@@ -1,6 +1,6 @@
 import os
 
-os.chdir('/home/rjing/Desktop/sambamdata')
+os.chdir('/home/rjing/Desktop/sambamdata') #change me
 
 #val = os.system('ls -al')
 #print(val)
